@@ -1,0 +1,9 @@
+name: 'Greet Action'
+description: 'Greets the user with a friendly message'
+inputs:
+  name:
+    description: 'Name of the person to greet'
+    required: true
+runs:
+  using: 'node16'
+  main: 'index.js'
